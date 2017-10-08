@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: '楷体';
+	font-size: small;
+	font-weight: bold;
+}
+
+#container {
+	margin: 0 auto;
+	width: 95%;
+	height: 100%;
+}
+
+#header {
+	position: relative;
+	height: 140px;
+	background-color: #C6E2FF;
+}
+
+a {
+	color: black;
+	font-family:'宋体';
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+select {
+	width: 150px;
+}
+
+#quit {
+	float: right;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+#menu {
+	position: absolute;
+	bottom: 5px;
+}
+
+#menu li {
+	float: left;
+	margin-left: 10px;
+	list-style: none;
+}
+
+#header h1 {
+	margin: 0 auto;
+	width: 240px;
+	padding-top: 40px;
+	color: yellow;
+	font-size: 36px;
+}
+
+#content {
+	*height: 300px; /*ie6 ie7生效*/
+	min-height: 300px; /*ie7 ff生效*/
+	*height: auto !important; /*修正ie7下height:100px为自动高度*/
+	padding-top: 60px;
+	background-color: silver;
+}
+
+#content table {
+	width: 300px;
+	margin: 0 auto;
+}
+
+#content table.wide {
+	width: 400px;
+	margin: 0 auto;
+}
+
+#content table.wide td {
+	vertical-align: middle;
+	width: auto;
+}
+
+#content thead td {
+	text-align: center;
+}
+
+#content td {
+	margin: 0 auto;
+}
+
+#content input {
+	height: 20px;
+	width: 150px;
+}
+
+#content .cols2 ,#content .cols4{
+	text-align: center;
+}
+
+#content .cols2 input {
+	width: auto;
+	padding: 2px;
+	margin-right: 10px;
+}
+
+#content .result {
+	background: white;
+	text-align: center;
+}
+
+#content .result a {
+	color: blue;
+}
+
+#content .info {
+	color: red;
+	margin: 0 auto;
+}
+
+#footer {
+	height: 120px;
+	background-color: #C6E2FF;
+}
